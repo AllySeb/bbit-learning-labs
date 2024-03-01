@@ -26,7 +26,6 @@ class mqProducerInterface:
         # Establish Channel
 
         # Create the exchange if not already present
-
         pass
 
     def publishOrder(self, message: str) -> None:
@@ -35,5 +34,4 @@ class mqProducerInterface:
         # Close Channel
 
         # Close Connection
-    
         pass
